@@ -1,0 +1,21 @@
+.resume-container{
+    display: grid;
+    grid-template-rows: 80% 20%;
+    grid-template-columns: 80% 20% ;
+    /* border: 2px solid black; */
+    margin: 4% 13.3% 10% 13.3%
+}
+
+.resume-main{
+    padding-right: 4%;
+}
+
+.work-exp, .class-exp, .edu-info{
+    padding: 0px 2% ;
+}
+
+
+.resume-side{
+    border-left: 2px solid hsl(54, 5%, 64%)  ;
+    padding-left: 5%;
+}
