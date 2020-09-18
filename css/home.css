@@ -3,7 +3,6 @@
     grid-template-columns: 30% 70%;
     grid-template-rows: 40% 20% 40%;
     text-align: center;
-    border: 3px solid red;
     margin: 4% 5% 10% 5%;
 
 }
@@ -12,7 +11,6 @@
 .profile-wrapper{
     grid-row-start:1;
     grid-row-end: 3;
-    border-style: solid;
 }
 
 

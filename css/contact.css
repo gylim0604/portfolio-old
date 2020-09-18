@@ -1,0 +1,15 @@
+.img-container{
+    margin-top: 3em;
+    text-align: center;
+}
+
+.img-frame{
+    max-width: 20%;
+    max-height: 20%;
+    border-radius: 50%;
+}
+
+.text-box{
+    padding-top: 4%;
+    text-align: center;
+}
