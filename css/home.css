@@ -26,35 +26,38 @@
 
 
 .div-1{
-    border: 1px solid green;
+
     grid-row: 1 /  2;
 }
 
 .div-2{
-    border: 1px solid red;
     grid-row: 2 / 3;
     padding: 2% 5% 2% 5%;
+    display: grid; /* Standard syntax */
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
 }
 
 .div-2 a{
     text-decoration: none;
+    color:white;
+    display: block;
 }
 
 .div-3{
     text-align:justify;
     padding: 10px 20px 10px 20px;
-    border: 1px solid blue;
 }
 
 .circle-link{
     background-color: black;
-    color: hsl(0, 100%, 100%);
+    -webkit-flex: 1; /* Safari */
+    -ms-flex: 1; /* IE 10 */
+    flex: 1; /* Standard syntax */
     border-radius: 50%;
-    text-decoration: none;
-    min-height: 3em;
-    max-width: 10em;
-    justify-content: center;
-    display: flex;
+    width: 7rem;
+    height: 6rem;
+    line-height: 6rem;
 }
 
 .circle-link:hover{
